@@ -1,0 +1,79 @@
+div{
+	background-color: pink;
+}
+nav{
+	position: fixed;
+	background-color: #ADD8E6;
+	width: 100%;
+	margin: 0px;
+	top:0px;
+	left:0px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a{
+    z-index:1;
+    text-align:center;
+    display: block;
+    padding: 0 15px;
+	color:black;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+nav a:hover{
+    color:white;
+	background-color: #00008B;
+}
+nav ul li:hover > ul {
+    display: inherit;
+	background-color: white;
+}
+nav ul ul li{
+    display: list-item;
+    position: relative;
+    width: 170px;
+    float: none; 
+}
+section{
+    z-index:-1;
+    position: relative;
+    top:30px;
+	float: left;
+	width: 50%;
+	background-color: #D3D3D3;
+}
+aside{
+    position: relative;
+    top:30px;
+	z-index:-1;
+	float: left;
+	width: 50%;
+	background-color: #90EE90;
+}
+li.sec{
+	background-color: pink;
+	width: 45%
+}
+h4.sec{
+	padding: 5px;
+}
+footer{
+position: relative;
+	background-color:black;
+	color: white;
+	z-index: -2;
+	top: 30px;
+}
